@@ -1,10 +1,23 @@
 import math
 """
 Take in values to calculate RMS
+
+Date: July 12, 2027,
+Author: Vytamyn
+cvn
 """
 
 
 def rms(source):
+    """
+    Calculate RMS values
+
+    Args:
+        source (list): a list contains raw collected data
+
+    Returns:
+        float: a calculated RMS vibration value
+    """
     # Square the values
     squared = []
     for i in source:

@@ -1,14 +1,25 @@
 import os
 import shutil
-
 """
 Converting files into .csv
+
+Date: July 12, 2027,
+Author: Vytamyn
+cvn
 """
 
 
 def source_path():
-    sf = r"<folderpath>"
+    """
+    Convert all files to .csv
 
+    Args:
+        None
+
+    Returns:
+        str: a path to the folder containing all the csv files
+    """
+    sf = r"<folderpath>"
     csv_folder = os.path.join(os.path.dirname(sf), "csv_files")
     os.makedirs(csv_folder, exist_ok=True)  # surpass existed folder
 

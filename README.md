@@ -1,2 +1,6 @@
-# ims-analysis
-NASA IMS Bearing Analysis 
+# NASA IMS BEARING(S) ANALYSIS
+## Introduction
+## Composition
+## Execution
+## Results
+## Conclusion

@@ -1,7 +1,11 @@
 import os
+# To execute files
 import files_control as fc
+# To calculate RMS
 import rms_cal as rms
+# To plot the data points
 import ims_plot as plt
+# To convert raw data into .csv
 import convert_files as cf
 
 
@@ -15,12 +19,23 @@ moment degradation starts.
 Source:
 https://data.nasa.gov/dataset/ims-bearings
 
+Date: July 12, 2027,
 Author: Vytamyn
 cvn
 """
 
 
 def main():
+    """
+    Run the program
+
+    Args:
+        None
+
+    Return:
+        None
+
+    """
     # Getting all the files and having a list of filepaths
     source_path = cf.source_path()
     print(source_path)
@@ -41,11 +56,8 @@ def main():
     plt.plot(all_rms)
 
 
-
-
-
 if __name__ == "__main__":
     main()
-
+# cvn
 
 
