@@ -39,6 +39,3 @@ def rms(source):
     return r
 
 
-
-# exp = [1,2,3,4,5]
-# print(rms(exp))
