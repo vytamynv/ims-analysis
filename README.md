@@ -63,7 +63,7 @@ heavy load of data points.
 | Alert Threshold (mean - 2σ)     | 	0.1512983858771747       |
 | Danger Threshold (mean + 5σ)    | 	0.1619673574200970       |
 
-![Bear 1 RMS Trend](ims-project-output.png)
+![Bear 1 RMS Trend](img/ims-project-output.png)
 
 ## Findings
 RMS crossed the upper alert threshold at file index **2118-2119** and continued 
