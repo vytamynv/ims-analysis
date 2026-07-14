@@ -38,7 +38,7 @@ def baseline_cal(rms_values):
 
     print(f'Baseline Mean {baseline_mean}\nVariance {baseline_std}\n'
           f'Alert threshold (Upper) {alert1}\nAlert threshold (Lower) '
-          f'{alert2}\nDANGER {danger}')
+          f'{alert2}\nDANGER {danger}\n\n')
 
     return [baseline_start, baseline_end, baseline_mean, baseline_std, alert1,
             alert2, danger]

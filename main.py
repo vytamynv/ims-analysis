@@ -19,7 +19,7 @@ moment degradation starts.
 Source:
 https://data.nasa.gov/dataset/ims-bearings
 
-Date: July 13, 2027 (updated),
+Date: July 14, 2027 (updated),
 Author: Vytamyn
 cvn
 """
@@ -51,6 +51,7 @@ def main():
 
     plt.plot(all_rms)
 
+    # Write a report
     report_ask = input("Do you want to have a brief report? [Y/N]: ")
     while (report_ask.lower().strip() != 'y' and report_ask.lower().strip() !=
            'n'):

@@ -5,7 +5,7 @@ import detector as dt
 Reporting the analysis
 
 Author: Vytamyn
-Date: July 13, 2027,
+Date: July 14, 2027, (updated)
 cvn
 """
 
@@ -18,12 +18,12 @@ def report(data, source_path):
     warning_file = warning_file.replace('.csv','')
     warning_time = datetime.strptime(warning_file, "%Y.%m.%d.%H.%M.%S")
 
-    baseline_file = os.path.basename(source_path[base_num[0]])
-    baseline_file = baseline_file.replace('.csv','')
-    baseline_time = datetime.strptime(baseline_file, "%Y.%m.%d.%H.%M.%S")
+    failure_file = os.path.basename(source_path[len(source_path)-1]) # last file
+    failure_file = failure_file.replace('.csv','')
+    failure_time = datetime.strptime(failure_file, "%Y.%m.%d.%H.%M.%S")
 
-    warning_period_min = (warning_time - baseline_time).total_seconds()/60
-    warning_period_hour = warning_period_min/60
+    warning_period_hour = (failure_time - warning_time).total_seconds()/3600
+    warning_period_day = warning_period_hour/24
 
     current_date = datetime.now()
     filename = (f"Report-Early-Degradation-"
@@ -40,15 +40,16 @@ def report(data, source_path):
         f.write(f"Baseline Mean: {base_num[2]:.6f}\n")
         f.write(f"Variance: {base_num[3]:.6f}\n\n")
         f.write("THRESHOLDS\n")
-        f.write(f"Alert threshold (Upper) {base_num[4]:.6f}\n")
-        f.write(f"Alert threshold (Lower) {base_num[5]:.6f}\n")
-        f.write(f"DANGER {base_num[6]:.6f}\n\n\n")
+        f.write(f"Alert threshold (Upper): {base_num[4]:.6f}\n")
+        f.write(f"Alert threshold (Lower): {base_num[5]:.6f}\n")
+        f.write(f"DANGER THRESHOLD: {base_num[6]:.6f}\n\n\n")
         f.write(f"FINDING\n")
         f.write(f"RMS crossed the upper alert threshold at file index "
                 f"2118-2119 and continued rising. At the file index 2129, "
                 f"it passed the danger threshold. This provided an early "
-                f"warning of approximately {warning_period_min:.3f} minutes or "
-                f"{warning_period_hour:.3f} hours "
+                f"warning of approximately {warning_period_hour:.1f} hours "
+                f"or "
+                f"{warning_period_day:.1f} days "
                 f"before catastrophic failure.\n\n")
         f.write("ACTIONS\n")
         f.write("Schedule inspection immediately.\n\n")

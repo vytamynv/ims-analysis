@@ -19,8 +19,8 @@ def source_path():
     Returns:
         str: a path to the folder containing all the csv files
     """
-    # sf = r"<folderpath>"
-    sf = r"D:\Astronomy\nasa-ims-bearing\IMS\IMS\1st_test\1st_test"
+    sf = r"<folderpath>"
+
     csv_folder = os.path.join(os.path.dirname(sf), "csv_files")
     os.makedirs(csv_folder, exist_ok=True)  # surpass existed folder
 
@@ -36,7 +36,7 @@ def source_path():
         shutil.copy2(old_path, new_path)
         count += 1
 
-    print(f"Done. {count} files copied to: {csv_folder}")
+    print(f"Done. {count} files copied to: {csv_folder}\n\n")
     return csv_folder, count
 
 
