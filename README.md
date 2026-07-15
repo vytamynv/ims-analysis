@@ -74,5 +74,9 @@ provided an early warning of approximately **23.7 hours** or roughly
 ## Limitation
 This program works on Bearing 1, test 1 only.
 
-(Updated: July 14, 2027)
+## Contact & Support
+**Email**: vytamynv@gmail.com
+
+**Report bug**: [Github Issues] https://github.com/vytamynv/ims-analysis/issues
+
 
