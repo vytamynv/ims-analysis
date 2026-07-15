@@ -76,7 +76,9 @@ This program works on Bearing 1, test 1 only.
 
 ## App Demo
 I also built a simple app for this project. One can upload CVS files, view the interactive graph, pinpoint the alert crossing index, generate a report, and download it.
+
 [Watch the demo]
+
 https://github.com/user-attachments/assets/2489221c-c1c4-4ade-a389-2f45fbf8146a
 
 ## Contact & Support
