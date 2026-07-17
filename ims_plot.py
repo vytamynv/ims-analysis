@@ -19,15 +19,20 @@ def plot(data):
     Returns:
         None
     """
+    # Add axis' labels
     plt.xlabel('index')
     plt.ylabel('RMS Vibration')
+
+    # Add title
     plt.title('Bearing 1 RMS Trend')
+
+    # Plot
     plt.plot(data, 'b', linewidth=0.5)
-    plt.xlim(left=0)
+    plt.xlim(left=0)    # x-axis root
     plt.grid(True, alpha=0.3)
 
     # Getting baseline values
-    # Data from all_rms[];
+    # Data from all_rms[]; idx value
     # #0 baseline_start, #1 baseline_end, #2 baseline_mean, #3 baseline_std,
     # #4 alert1, #5 alert2, #6 danger
     base_num = dt.baseline_cal(data)
@@ -45,9 +50,9 @@ def plot(data):
                 label=f'Alert (mean - 2σ): {base_num[4]:.4f}')
     plt.axhline(y=base_num[6], color='red', linestyle='-.',
                 label=f'Danger: {base_num[5]:.4f}')
-    plt.legend()
-    plt.show()
 
+    plt.legend()    # Add legends
+    plt.show()
 
 
 

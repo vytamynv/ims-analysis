@@ -9,6 +9,16 @@ cvn
 
 
 def baseline_cal(rms_values):
+    """
+    Calculating baseline and standard deviation
+
+    Args:
+        rms_values (list): a list of RMS values
+
+    Returns:
+        list: a list of baseline_start, baseline_end, baseline_mean,
+        baseline_std, alert1, alert2, danger
+    """
     baseline_start = 542    # manually picked
     baseline_end = 2118     # manually picked
 
@@ -36,9 +46,9 @@ def baseline_cal(rms_values):
 
     danger = baseline_mean + (5 * baseline_std)
 
-    print(f'Baseline Mean {baseline_mean}\nVariance {baseline_std}\n'
-          f'Alert threshold (Upper) {alert1}\nAlert threshold (Lower) '
-          f'{alert2}\nDANGER {danger}\n\n')
+    # print(f'Baseline Mean {baseline_mean}\nVariance {baseline_std}\n'
+    #       f'Alert threshold (Upper) {alert1}\nAlert threshold (Lower) '
+    #       f'{alert2}\nDANGER {danger}\n\n')
 
     return [baseline_start, baseline_end, baseline_mean, baseline_std, alert1,
             alert2, danger]
