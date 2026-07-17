@@ -74,5 +74,16 @@ provided an early warning of approximately **23.7 hours** or roughly
 ## Limitation
 This program works on Bearing 1, test 1 only.
 
-(Updated: July 14, 2027)
+## App Demo
+I also built a simple app for this project. One can upload CVS files, view the interactive graph, pinpoint the alert crossing index, generate a report, and download it.
+
+[Watch the demo]
+
+https://github.com/user-attachments/assets/2489221c-c1c4-4ade-a389-2f45fbf8146a
+
+## Contact & Support
+**Email**: vytamynv@gmail.com
+
+**Report bug**: [Github Issues] https://github.com/vytamynv/ims-analysis/issues
+
 
