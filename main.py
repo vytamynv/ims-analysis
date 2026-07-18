@@ -19,7 +19,7 @@ moment degradation starts.
 Source:
 https://data.nasa.gov/dataset/ims-bearings
 
-Date: July 14, 2027 (updated),
+Date: July 14, 2026 (updated),
 Author: Vytamyn
 cvn
 """

@@ -3,7 +3,7 @@ import math
 Calculating baseline and standard deviation
 
 Author: Vytamyn
-Date: July 13, 2027,
+Date: July 13, 2026,
 cvn
 """
 

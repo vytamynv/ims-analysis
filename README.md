@@ -1,7 +1,7 @@
 # Early Degradation Detection in Rotating Machinery using Vibration RMS Trend Analysis
 Author: Vytamyn (CVN)
 
-Date: July 13, 2027
+Date: July 13, 2026
 
 ## Abstract
 This project aims to visualize early signals of potential degradation of the 
