@@ -28,7 +28,10 @@ There are 6 support files and 1 main file to run the program as shown below:
 6. report.py
 7. main.py
 
-All of them are written in Python. Version 3.0+ is strongly recommended. 
+All of them are written in Python. Version 3.0+ is strongly recommended.
+
+**IMPORTANT:** This is **NOT** open-source. See **[License & Copyright](#license--copyright)** section.
+
 ## Data
 Data is provided publicly by NASA via https://data.nasa.gov/dataset/ims-bearings 
 . There are 2156 files. Each file includes time-series accelerometer data.
@@ -85,5 +88,26 @@ https://github.com/user-attachments/assets/2489221c-c1c4-4ade-a389-2f45fbf8146a
 **Email**: vytamynv@gmail.com
 
 **Report bug**: [Github Issues] https://github.com/vytamynv/ims-analysis/issues
+
+## License & Copyright
+
+**Copyright © 2026 Vytamynv. All Rights Reserved.**
+
+This project and its source code are made publicly visible for reference and educational purposes only.
+
+**Permitted Use:** ✅
+- Viewing the source code
+- Forking the repository on GitHub (as permitted by GitHub's Terms of Service)
+
+**You are NOT permitted to:** 🚫
+- Copy, reproduce, or distribute any part of this code
+- Modify, adapt, or create derivative works
+- Use this code in any personal, commercial, or open-source project
+
+without explicit prior written permission from the author.
+
+**Disclaimer:** This software is provided "as is," without warranty of any kind, express or implied.
+
+For permission requests, please contact: vytamynv@gmail.com
 
 
