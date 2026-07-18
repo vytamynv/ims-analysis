@@ -86,4 +86,19 @@ https://github.com/user-attachments/assets/2489221c-c1c4-4ade-a389-2f45fbf8146a
 
 **Report bug**: [Github Issues] https://github.com/vytamynv/ims-analysis/issues
 
+## COPYRIGHT NOTICE
+
+© 2026 Vytamynv. All Rights Reserved.
+
+This project and its source code are made publicly visible for reference purposes only.
+
+You are **NOT** permitted to:
+
+- Copy, reproduce, or distribute any part of this code
+- Modify, adapt, or create derivative works
+- Use this code in any personal, commercial, or open-source project
+without explicit prior written permission from the author.
+
+For permission requests, please contact: vytamynv@gmail.com
+
 
