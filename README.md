@@ -30,7 +30,7 @@ There are 6 support files and 1 main file to run the program as shown below:
 
 All of them are written in Python. Version 3.0+ is strongly recommended.
 
-**IMPORTANT:** This is **NOT** open-source. See **[License & Copyright](#license--copyright))** section.
+**IMPORTANT:** This is **NOT** open-source. See **[License & Copyright](#license--copyright)** section.
 
 ## Data
 Data is provided publicly by NASA via https://data.nasa.gov/dataset/ims-bearings 
