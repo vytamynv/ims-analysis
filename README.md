@@ -86,7 +86,7 @@ https://github.com/user-attachments/assets/2489221c-c1c4-4ade-a389-2f45fbf8146a
 
 **Report bug**: [Github Issues] https://github.com/vytamynv/ims-analysis/issues
 
-## COPYRIGHT NOTICE
+## Copyright Notice
 
 © 2026 Vytamynv. All Rights Reserved.
 
