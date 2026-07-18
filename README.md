@@ -28,7 +28,9 @@ There are 6 support files and 1 main file to run the program as shown below:
 6. report.py
 7. main.py
 
-All of them are written in Python. Version 3.0+ is strongly recommended. 
+All of them are written in Python. Version 3.0+ is strongly recommended.
+
+**IMPORTANT:** This is **NOT** open-source. See copyright notice section of this README.
 ## Data
 Data is provided publicly by NASA via https://data.nasa.gov/dataset/ims-bearings 
 . There are 2156 files. Each file includes time-series accelerometer data.
@@ -97,6 +99,7 @@ You are **NOT** permitted to:
 - Copy, reproduce, or distribute any part of this code
 - Modify, adapt, or create derivative works
 - Use this code in any personal, commercial, or open-source project
+
 without explicit prior written permission from the author.
 
 For permission requests, please contact: vytamynv@gmail.com
